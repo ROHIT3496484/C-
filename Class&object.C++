@@ -4,7 +4,7 @@
 using namespace std;
 
 class Teacher{ //Class is the blueprint of entities
-    private: 
+    private: // Access Modifiers
     double salary;
     public:
     // properties and attributes
