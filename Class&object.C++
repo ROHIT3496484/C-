@@ -3,11 +3,11 @@
 #include <string>
 using namespace std;
 
-class Teacher{
+class Teacher{ //Class is the blueprint of entities
     private: 
     double salary;
     public:
-    // properties / attributes
+    // properties and attributes
     string name;
     string dept;
     string subject;
@@ -26,7 +26,7 @@ class Teacher{
 };
 int main() {
     // Write C++ code here
-    Teacher t1;
+    Teacher t1; // Obejcts are the entities
     t1.name = "Rana";
     t1.dept = "CSE";
     t1.subject = "C++";
